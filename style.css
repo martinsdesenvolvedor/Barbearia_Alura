@@ -269,7 +269,7 @@ tfoot {
 @media screen and (max-width: 480px) {
   .caixa,
   .principal,
-  .beneficios,
+  .conteudo-beneficios,
   .mapa-conteudo,
   .video {
     width: auto;
@@ -279,33 +279,39 @@ tfoot {
     text-align: center;
   }
 
+  .banner {
+    margin: 0 0 0 1px;
+  }
+
   nav {
     position: static;
     text-align: center;
   }
+
   .utensilios {
     margin: 0 15px 0 15px;
   }
 
   .principal p,
   .missao {
-    margin: 0 15px 0 15px;
+    margin: 0 0 0 15px;
     font-size: 25px;
   }
 
   .mapa-conteudo {
-    margin: 0 15px 0 15px;
+    margin: 0 0 0 2px;
   }
 
-  .lista-beneficios {
+  .lista-beneficios,
+  .imagem-beneficios {
     width: 100%;
-    margin: 0 15px 15px 15px;
+
     font-size: 20px;
   }
 
   .imagem-beneficios,
   .video {
-    margin: 15px;
+    margin: 15px 5px;
   }
 
   .produtos {
