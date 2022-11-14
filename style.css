@@ -272,7 +272,7 @@ tfoot {
   .conteudo-beneficios,
   .mapa-conteudo,
   .video {
-    width: auto;
+    width: 98%;
   }
 
   h1 {
@@ -299,14 +299,17 @@ tfoot {
   }
 
   .mapa-conteudo {
-    margin: 0 0 0 2px;
+    margin: 0 0 0 4px;
   }
 
-  .lista-beneficios,
-  .imagem-beneficios {
+  .lista-beneficios {
     width: 100%;
-
     font-size: 20px;
+    margin: 0 0 0 10px;
+  }
+
+  .imagem-beneficios {
+    width: 95%;
   }
 
   .imagem-beneficios,
@@ -320,7 +323,7 @@ tfoot {
 
   .produtos li {
     display: block;
-    width: 50%;
+    width: 70%;
     margin: 15px auto;
   }
 
